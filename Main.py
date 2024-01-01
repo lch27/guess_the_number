@@ -11,3 +11,16 @@ for guessesTaken in range(1, 7):
         print('Your guess is too low.')
     elif guess > secretNum:
         print('your guess is bigger than the number')
+    else:
+        break
+
+if guess == secretNum:
+    print(f'Good job! The right number is {guessesTaken} guesses.')
+
+else:
+    print(f'I was thinking of {secretNum}')
+
+
+
+
+
